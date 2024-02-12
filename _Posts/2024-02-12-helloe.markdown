@@ -1,8 +1,0 @@
----
-layout: post
-title: "hello 생성이 안되네 "
-date: 2024-02-12 12:08:19 +0900
-categories: jekyll update
----
-
-이게 기본이라는 거야?
