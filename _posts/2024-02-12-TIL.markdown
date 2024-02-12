@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "Today-I_Learn"
-date:   2024-02-12 13:16:03 +0900
+title: "TIL-github.io블로그생성"
+date: 2024-02-12 13:16:03 +0900
 categories: jekyll update
 ---
 
-### 2024.02.12 TIL 
-- github pages를 활용하여 github과 연동되는 blog만들기.<br>
-  Jeklly를 사용해 theme를 입히려고 했는데. (일단여기까지)<br>
-  github pages의 목적은 TIL을 만드는 것이었으므로. 일단은 목적달성
+### 2024.02.12 TIL
+
+<b>github pages를 활용하여 github과 연동되는 blog만들기.</b><br>
+Jeklly를 사용해 theme를 입히려고 했는데. (일단여기까지)<br>
+github pages의 목적은 TIL을 만드는 것이었으므로. <b>일단은 목적달성</b>
