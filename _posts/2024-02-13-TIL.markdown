@@ -1,0 +1,22 @@
+---
+layout: post
+title: "github-convention"
+date: 2024-02-13 13:16:03 +0900
+categories: jekyll update
+---
+
+- github convention을 찾아봄. <br>
+  규칙이라는 건 사용하는 사람들끼리의 rule이다.<br>
+  완벽한 컨벤션 규칙이란 있지 않지만 읽어본 자료들 중에서 공통적인 내용들이 있었다.<br>
+  앞으로 내가 적용해 볼 내용들이다.
+
+  - 미래의 내가 과거의 코드를 잘 알아볼 수 있는가?
+  - 남이 봤을 때 이 부분이 어떤 내용인지 알아볼 수 있는가?
+  - 명사 키워드를 사용해 커밋메세지의 타이틀을 작성하고, 본문 내용을 추가로 작성할 것<br>
+    (키워드는 아래 내용 참고)
+    <br>
+
+- reference
+  - <a href='https://github.com/joelparkerhenderson/git-commit-message'>github-commit-message</a>
+  - <a href='https://www.notion.so/fun-blog/33dc66dbb45f4dedba77df11f51890eb?v=f1077250abc347f08cd5c49a7b75bbf4&p=aad4f131cce04e81a1d2a39468422e2d&pm=s'>Conventional Commits</a>
+  - <a href='https://www.notion.so/fun-blog/33dc66dbb45f4dedba77df11f51890eb?v=f1077250abc347f08cd5c49a7b75bbf4&p=aad4f131cce04e81a1d2a39468422e2d&pm=s'>좋은 commit message를 위한 영어사전 branch 글</a>
