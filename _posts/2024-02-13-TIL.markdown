@@ -18,6 +18,6 @@ categories: jekyll update
     <br>
 
 - reference
-  - <a href='https://github.com/joelparkerhenderson/git-commit-message'>github-commit-message</a>
-  - <a href='https://www.notion.so/fun-blog/33dc66dbb45f4dedba77df11f51890eb?v=f1077250abc347f08cd5c49a7b75bbf4&p=aad4f131cce04e81a1d2a39468422e2d&pm=s'>Conventional Commits</a>
-  - <a href='https://www.notion.so/fun-blog/33dc66dbb45f4dedba77df11f51890eb?v=f1077250abc347f08cd5c49a7b75bbf4&p=aad4f131cce04e81a1d2a39468422e2d&pm=s'>좋은 commit message를 위한 영어사전 branch 글</a>
+  - <a href='https://github.com/joelparkerhenderson/git-commit-message' target="_blank">github-commit-message</a>
+  - <a href='https://www.notion.so/fun-blog/33dc66dbb45f4dedba77df11f51890eb?v=f1077250abc347f08cd5c49a7b75bbf4&p=aad4f131cce04e81a1d2a39468422e2d&pm=s' target="_blank">Conventional Commits</a>
+  - <a href='https://www.notion.so/fun-blog/33dc66dbb45f4dedba77df11f51890eb?v=f1077250abc347f08cd5c49a7b75bbf4&p=aad4f131cce04e81a1d2a39468422e2d&pm=s' target="_blank">좋은 commit message를 위한 영어사전 branch 글</a>
