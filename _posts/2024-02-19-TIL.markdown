@@ -1,25 +1,33 @@
 ---
 layout: post
-title: "생각대로 출력되지 않는 이유, asynchronous"
+title: "lotto : 생각대로 출력되지 않는 이유, asynchronous"
 date: 2024-02-19 13:16:03 +0900
 categories: jekyll update
 ---
 <br>
 
-### ✅왜 계획한 대로 나오지 않는가? JS의 비동기 처리방식 때문
-- what is asynchronous?
-하나의 작업이 끝나면 다음 작업을 하는 동기적 방식과 달리,
-여러 작업을 동시에 시작할 수 있는 처리 방법을 말한다. 일을 동시에 수행하여 프로그램의 효율성을 높일 수 있지만 작업 완료의 순서가 보장되지 않는다.
-이러한 경우에 콜백패턴, 프로미스, async await을 사용해 순서를 관리해야 한다.
+- 어제에 이어 비동기를 공부함.<br> 
+질문도 내용을 알고 해야 더 잘할 수 있다는 말은 역시 사실이다.<br> 
+자료를 찾아보고 코드를 실험해 볼 수록 질문이 예리해지고, 내가 모르는 부분이 정확해진다.
+<br>
+
+- 문제를 정확히 파악하고 해결하고자 노력하자.
 <br>
 <br>
 
-### ✅그렇다면 순서를 어떻게 보장할 수 있는가?
+- ✅왜 계획한 대로 나오지 않는가? JS의 비동기 처리방식 때문
+- what is asynchronous?<br>
+  하나의 작업이 끝나면 다음 작업을 하는 동기적 방식과 달리,
+  여러 작업을 동시에 시작할 수 있는 처리 방법을 말한다. 일을 동시에 수행하여 프로그램의 효율성을 높일 수 있지만 작업 완료의 순서가 보장되지 않는다.
+  이러한 경우에 콜백패턴, 프로미스, async await을 사용해 순서를 관리해야 한다.
+  <br>
+  <br>
+
+- ✅그렇다면 순서를 어떻게 보장할 수 있는가?
 - 콜백패턴, Promise, async-await를 통해 순서를 조절할 수 있음
-
-- what is Promise object?
-비동기 작업의 최종 완료, 실패를 나타내는 객체다.
-프로미스객체를 사용하려면 new 키워드와 Promise 생성자 함수를 사용하면 된다. Promise생성자 함수는 resolve와 reject를 매개 변수로 가진 콜백함수를 인수로 전달받는다.
+- what is Promise object?<br>
+  비동기 작업의 최종 완료, 실패를 나타내는 객체다.
+  프로미스객체를 사용하려면 new 키워드와 Promise 생성자 함수를 사용하면 된다. Promise생성자 함수는 resolve와 reject를 매개 변수로 가진 콜백함수를 인수로 전달받는다.
 
 ```jsx
 const promise = new Promise((resolve, reject) => {
@@ -28,34 +36,40 @@ const promise = new Promise((resolve, reject) => {
   else reject("Error");
 });
 ```
+
 <br>
 <br>
 
 # Self Q&A
-### ✅ resolve와 reject를 반환해서 setTimeout에서 resolve를 실행하는 이유는 무엇?
+
+- ✅ resolve와 reject를 반환해서 setTimeout에서 resolve를 실행하는 이유는 무엇?
+
 ```jsx
 new Promise((resolve, reject) => {
-  const data = fetch('서버로부터 요청할 URL');
-  if(data) resolve(data); 
-  else reject("Error"); 
-})
+  const data = fetch("서버로부터 요청할 URL");
+  if (data) resolve(data);
+  else reject("Error");
+});
 ```
-Promise 생성자 함수 자체가 resolve와 reject를 인수로 갖는 콜백함수를 인수로 받는다. 
+
+Promise 생성자 함수 자체가 resolve와 reject를 인수로 갖는 콜백함수를 인수로 받는다.
 그렇기 때문에 Promise로 감싼 함수의 비동기 처리 결과*( 위 코드 ex fetch )*에 따라서 resolve( ) / reject( ) 가 결과값과 함께 실행되게 된다. ( 공식이라고 생각하면 되겠다 )
 <br>
 <br>
 
-### ✅ resolve( ) 함수를 호출하는 위치에 따라 결과값이 다르게 나옴? Yes, setTimeout 내부와 외부에서 실행하는 것은 어떤 차이가 있는가? <a href="https://www.notion.so/fun-blog/33dc66dbb45f4dedba77df11f51890eb?v=f1077250abc347f08cd5c49a7b75bbf4">노션 참고</a>
+- ✅ resolve( ) 함수를 호출하는 위치에 따라 결과값이 다르게 나옴? Yes<br>
+  setTimeout 내부와 외부에서 실행하는 것은 어떤 차이가 있는가? <a href="https://www.notion.so/fun-blog/33dc66dbb45f4dedba77df11f51890eb?v=f1077250abc347f08cd5c49a7b75bbf4">노션 참고</a><br>
+
 코드의 내용에 따라 다를 것 같은데, <br>
 setTimeout가 비동기로 동작하기 때문에 setTimeout외부에 있는 코드는 JS코드 실행 방식에 따라서 setTimeout의 지연을 기다리지 않고 다음 코드가 실행 ⇒ setTimeout 내부 코드를 실행하고 나면 resolve( ) 함수가 실행될 수 있도록 하는 게 순서상 맞게 된다. <a href="https://www.notion.so/fun-blog/33dc66dbb45f4dedba77df11f51890eb?v=f1077250abc347f08cd5c49a7b75bbf4">노션 참고</a>
 <br>
 <br>
 
-### ✅ 버튼을 클릭하고 난 다음의 비동기 처리가 정확히 어떻게 되는가?
+- ✅ 버튼을 클릭하고 난 다음의 비동기 처리가 정확히 어떻게 되는가?
 - (1) 이벤트 리스너에 async 키워드가 붙어 await을 사용할 수 있게 되고, drawBall함수에 await을 붙여 결과를 기다렸다가 실행되는게 맞음? YES <br>
 - (2) 그렇게 되면 drawBall의 함수에도 async를 붙이고 내부의 setTimeout에도 awiat을 붙여서 사용하면 promise로 감싸지 않아도 비동기처리 되는거 아님?<br>
-NO 안됨!!!! setTimeout은 promise를 반환하지 않아서 async-await이 동작하지 않음 → promise를 생성해줘야함
-<br>
-<br>
+  NO 안됨!!!! setTimeout은 promise를 반환하지 않아서 async-await이 동작하지 않음 → promise를 생성해줘야함
+  <br>
+  <br>
 
 - <a href='https://www.notion.so/fun-blog/7b0a8a44708644f5a95f6b59c3fa1e7c' target="_blank"> 2024.02.19 TIL의 자세히보기 - 노션으로 이동 </a>
