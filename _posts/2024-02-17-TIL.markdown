@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Lotto game : 랜덤 로또 뽑기, 유저 숫자 입력"
+title: "lotto : 랜덤 로또 뽑기, 유저 숫자 입력"
 date: 2024-02-17 13:16:03 +0900
 categories: jekyll update
 ---
