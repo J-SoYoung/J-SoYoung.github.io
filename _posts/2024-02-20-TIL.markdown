@@ -1,29 +1,29 @@
 ---
 layout: post
-title: "lotto, test할 때와 직접 사용해 볼 때와는 다르다"
+title: "lotto: 써봐야 안다(버그찾음), AnsHoli프로젝트 시작"
 date: 2024-02-20 13:16:03 +0900
 categories: jekyll update
 ---
 
+
 - 사용자의 모든 행동을 생각해 볼 수 있어야 함. <br>
-  <b>[ 버그 찾음 ]</b> 내가 코드를 짜고 test를 할 때는 당연하다고 생각되었던 것들이 있었다. 근데 test를 하다보니 로또 번호를 보여줄 때 기다리는 1초에서 '읭? 안나오네?' 하는 반응이 나도 모르게 나왔던 것이다. 그래서 버튼을 여러번 눌렀더니 이벤트가 중첩되어 공이 여러번 출력되는 현상을 발견하게 됨
-
-- <b>[ 해결 ]</b><br>
-  isClicked변수를 생성하여 false, true값으로 사용자가 버튼을 클릭했는지 값을 저장해놓고 메시지 창을 띄워줌
-
-- 이것도 버그라면 버그? 게임이 한번 실행 후 끝난다. <br>
-  [ 다시시작 ] 버튼을 생성해 게임을 다시 시작할 수 있도록 하였다. 이때 전체적인 프로세스를 한번 훑어보게 되었는데, 역시 처음 구현하고 다시 코드를 보니 고쳐야 할 부분들이 눈에 보였다.
-  <br>
-  - JS코드 순서에 따라 구현하다보니 '다시 시작'을 생각하지 못한 것
-  - startGame() 함수를 생성하여 window.onload될 때와, 다시시작 버튼을 클릭했을 때 실행되도록 함
-    <br>
-
-전체 프로세스는 대부분 window.onload이벤트와 button의 click이벤트로 이루어져 있다는 사실!! (신기.../ㅋ)
-
+  <b>[ 버그 찾음 ]</b>버튼을 여러번 눌렀더니 이벤트가 중첩되어 공이 여러번 출력되는 현상을 발견하게 됨
+- <b>[ 이것도 버그라면 버그 ]</b><br>
+  게임이 한번 실행 후 끝나버림. '다시 시작' 버튼을 생성해 게임을 다시 시작할 수 있도록 하였다. startGame() 함수를 생성하여 window.onload될 때와, 다시시작 버튼을 클릭했을 때 실행되도록 함
+- 전체 프로세스는 대부분 window.onload이벤트와 button의 click이벤트로 이루어져 있다는 사실이 눈에 들어옴.
+- 이때 전체적인 프로세스를 한번 훑어보게 되었는데, 역시 처음 구현하고 다시 코드를 보니 고쳐야 할 부분들이 눈에 보였다.
   <br>
 
 ---
+  <br>
+
+- <b>AnsHoli 프로젝트 시작</b><br>
+지금 근무하고 있는 곳은 스케줄 근무이다. 그래서 매니저님이 손수 달력에 휴무일을 작성하신다. 나는 개발자로서 이 문제를 해결하고자 한다!!!!!
+
+- <a href='https://www.notion.so/fun-blog/AnsHoli-ddc1ba5c781d497b83390136557d001f'>AnsHoli idea-note(notion)</a> 
+  <br>
+
+-----
 
   <br>
-- <a href='https://www.notion.so/fun-blog/1a4a592a30654d1e9b2023e790b7805e' target="_blank"> 2024.02.20 TIL의 자세히보기 - 노션으로 이동 </a>
-- <a href='https://github.com/J-SoYoung/Collection-JavaScript-toyProjects/commit/30839278f746414b07547ad6b5484a8990392faf' target="_blank"> github으로 이동</a>
+- <a href='https://www.notion.so/fun-blog/1a4a592a30654d1e9b2023e790b7805e' target="_blank"> 2024.02.20 Lotto-TIL의 자세히보기 - 노션으로 이동 </a>
