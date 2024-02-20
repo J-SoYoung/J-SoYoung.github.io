@@ -10,3 +10,6 @@ categories: jekyll update
 - <b>github pages를 활용하여 github과 연동되는 blog만들기.</b><br>
   Jeklly를 사용해 theme를 입히려고 했는데. (일단여기까지)<br>
   github pages의 목적은 TIL을 만드는 것이었으므로. <b>일단은 목적달성</b>
+
+- 원래 사용했던 notion은 내용이 너무 많아서, 뭔가 간결하게 TIL을 정리하고 싶었다.
+  <a href='https://www.notion.so/fun-blog/young-s-Blog-ad4aa1d36a3046238326b7d636322355'>young’s Blog | 계속 성장하는 개발자가 되는 법 ( 노션 링크 이동 ) </a>
