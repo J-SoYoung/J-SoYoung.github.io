@@ -1,0 +1,25 @@
+---
+layout: post
+title: "AnsHoli 실제 아이디어를 구현하는 건 흥미진진하다."
+date: 2024-02-20 13:16:03 +0900
+categories: jekyll update
+---
+
+- <b>RSP</b><br>
+  - 조금 더 생각하며 개발해보기. 간단한 프로그램이지만, 이게 최선인가?
+  - setInterval, clearInterval
+  - 객체로 데이터 만들어서 활용하기
+
+---
+
+- <b>AnsHoli </b><br>
+  - 스케줄 근무의 휴무를 지정해주는 서비스. 오늘은 근무자를 생성했고, 휴일을 지정하는 부분까지 했다. 아직은 부족한 부분이 많지만 점차 개선할 예정이고, Test겸 먼저 가장 기본적인 부분을 구현해봤다.
+    - 근무자 추가
+    - 휴무일 지정 ( 하루에 1명만 쉼 )
+    - 추가 수정 사항 - 오전 / 오후를 나눠서 하루에 2명은 쉴 수 있게 수정 - 일자에 파트까지 출력될 수 있도록 - 데이터 저장? - 조금 더 생각해봐야 하긴함ㅎㅎㅎ 일단 여기까지. 바쁘닷.
+      <br>
+
+---
+
+- <a href='https://www.notion.so/fun-blog/RSP-78cf5c863c704363b163c4d7a75b9db6' target="_blank"> 2024.02.21 RSP-TIL의 자세히보기(notion) </a>
+- <a href='https://www.notion.so/fun-blog/Ansholi-9da450ae3492445ca2d072c50d6fe931' target="_blank">2024.02.21 AnsHoli_TIL의 자세히보기(notion)</a>
