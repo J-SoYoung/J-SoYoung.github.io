@@ -11,18 +11,13 @@ categories: jekyll update
 자료를 찾아보고 코드를 실험해 볼 수록 질문이 예리해지고, 내가 모르는 부분이 정확해진다.
 <br>
 
-- 문제를 정확히 파악하고 해결하고자 노력하자.
-<br>
-<br>
-
-✅왜 계획한 대로 나오지 않는가? JS의 비동기 처리방식 때문<br>
-✅그렇다면 순서를 어떻게 보장할 수 있는가?<br>
-
 # Self Q&A
-✅ resolve와 reject를 반환해서 setTimeout에서 resolve를 실행하는 이유는 무엇?
-✅ resolve( ) 함수를 호출하는 위치에 따라 결과값이 다르게 나옴? Yes<br>
+- 왜 계획한 대로 나오지 않는가? JS의 비동기 처리방식 때문<br>
+- 그렇다면 순서를 어떻게 보장할 수 있는가?<br>
+- resolve와 reject를 반환해서 setTimeout에서 resolve를 실행하는 이유는 무엇?
+- resolve( ) 함수를 호출하는 위치에 따라 결과값이 다르게 나옴? Yes<br>
   setTimeout 내부와 외부에서 실행하는 것은 어떤 차이가 있는가? <br>
-✅ 버튼을 클릭하고 난 다음의 비동기 처리가 정확히 어떻게 되는가?<br>
+- 버튼을 클릭하고 난 다음의 비동기 처리가 정확히 어떻게 되는가?<br>
 - (1) 이벤트 리스너에 async 키워드가 붙어 await을 사용할 수 있게 되고, drawBall함수에 await을 붙여 결과를 기다렸다가 실행되는게 맞음? YES <br>
 - (2) 그렇게 되면 drawBall의 함수에도 async를 붙이고 내부의 setTimeout에도 awiat을 붙여서 사용하면 promise로 감싸지 않아도 비동기처리 되는거 아님?<br>
   NO 안됨!!!! setTimeout은 promise를 반환하지 않아서 async-await이 동작하지 않음 → promise를 생성해줘야함
@@ -31,4 +26,5 @@ categories: jekyll update
 ---------
 
   <br>
+
 - <a href='https://www.notion.so/fun-blog/7b0a8a44708644f5a95f6b59c3fa1e7c' target="_blank"> 2024.02.19 TIL의 자세히보기 - 노션으로 이동 </a>

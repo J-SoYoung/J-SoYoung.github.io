@@ -1,0 +1,16 @@
+---
+layout: post
+title: "AnsHoli 문제를 정의하는 것 부터가 시작이다."
+date: 2024-02-22 13:16:03 +0900
+categories: jekyll update
+---
+
+- <b>AnsHoli </b><br>
+  - workers의 배열에 더미데이터를 넣어두고 개발을 했다. 오늘의 중점사항은 하루에 AM과 PM을 한명씩 쉬게 하기를 구현했다.
+  - 생각이 정리가 안돼서 코드를 지웠다 썼다를 반복했던 것 같다. 문제의 정의가 먼저 되어야 코드가 더 잘 짜질 것 같다는 생각이 들었다.
+  - 휴무일을 지정하는 데 이것저것 TEST를 해보느라 다양한 코드를 작성하고 있다. 이를 branch로 나눠서 관리해볼 생각이다. v1_random과 v2_sequence로 나눠봤다. ㅋㅋㅋㅋㅋㅋ 앞으로 흥미진진한 문제들이 발생할 예정이닼ㅋ 어떻게 풀어나갈까!!!
+    <br>
+
+---
+
+- <a href='https://www.notion.so/fun-blog/AnsHoli-v2-422665e95f534b66a448e6f8d5740598' target="_blank">2024.02.22 AnsHoli_TIL의 자세히보기(notion)</a>

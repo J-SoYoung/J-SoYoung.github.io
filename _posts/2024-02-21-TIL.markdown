@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AnsHoli 실제 아이디어를 구현하는 건 흥미진진하다."
-date: 2024-02-20 13:16:03 +0900
+date: 2024-02-21 13:16:03 +0900
 categories: jekyll update
 ---
 
