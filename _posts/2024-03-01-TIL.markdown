@@ -1,0 +1,26 @@
+---
+layout: post
+title: "AnsMonth 눈앞의 문제를 풀자."
+date: 2024-03-01 13:16:03 +0900
+categories: jekyll update
+---
+
+<b>AnsMonth </b>
+<br>
+<b>TODO</b> 
+
+- table그리기 중복 코드 수정
+  - today데이터 표 그리기 중복 코드 수정 -> Today_Table_Draw함수로 구현
+  - 월별 합산 table도 함수로 구현
+  - 첫 화면 로드할때, 데이터 추가할 때 공동으로 함수 사용
+<br>
+<br>
+
+<b>CHECK</b> 
+
+- <form>사용해서 enter누르면 submit넘어가도록 함 → 새로고침 → 화면깜박임 발생!!!! 
+  - form태그 사용 안하고, button 클릭이벤트로 구현하도록 함
+  - [ ]  이거 용어를 어떻게 표현하는지? form 이벤트? submit? 용어확인 
+  - [ ]  form태그 사용안하고, 버튼 클릭으로 이벤트 하기보다. keypress이벤트생성 하기 
+
+---
