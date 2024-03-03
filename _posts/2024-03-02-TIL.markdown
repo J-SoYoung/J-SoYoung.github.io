@@ -1,24 +1,25 @@
 ---
 layout: post
-title: "AnsMonth 삭제,정렬."
+title: "AnsMonth 삭제,정렬"
 date: 2024-03-02 13:16:03 +0900
 categories: jekyll update
 ---
 
 <b>TODO</b>
 
-[x] 3/1 중복코드 줄이기
-[x] 3/2 입력하고 내림차순 정렬하기
-[x] 3/2 개별 데이터 삭제
-[x] 3/2 일지 전체 삭제
-[x] 3/2 합계를 맨 위로 올릴까봐
-[ ] 2월 3월 각 월마다 저장 ?? → 월별 데이터 보기 .
-[ ] 리팩토링 -> 겹치는 코드
-[ ] keyboard Event 하기 -> 엔터하면 넘어가기
-[ ] 입력하고 나면 자동으로 넘어가기
-<br>
+- [x] 3/1 중복코드 줄이기
+- [x] 3/2 입력하고 내림차순 정렬하기
+- [x] 3/2 개별 데이터 삭제
+- [x] 3/2 일지 전체 삭제
+- [x] 3/2 합계를 맨 위로 올릴까봐
+- [ ] 2월 3월 각 월마다 저장 ?? → 월별 데이터 보기 .
+- [ ] 리팩토링 -> 겹치는 코드
+- [ ] keyboard Event 하기 -> 엔터하면 넘어가기
+- [ ] 입력하고 나면 자동으로 넘어가기
+      <br>
 
 - 정렬하기
+
   - sort() 메서드를 사용해 정렬 가능하지만, 약간 추가조건이 붙음
   - input type=’date’로 날짜를 선택할 수 있으므로 선택한 날짜에 맞게 들어갈 수 있어야 한다 <b>insertBefore(new,childNode)</b> 메서드를 사용해 원하는 위치에 DOM삽입!
     <br>
@@ -41,6 +42,10 @@ categories: jekyll update
   - month의 삭제기능 -> 각각의 item 연산하는 부분
   - 변수와 함수의 네이밍!!!! -> 어떤 규칙을 만들건지.
 
----
+<br>
+
+---------
+
+<br>
 
 - <a href='https://www.notion.so/fun-blog/AnsMonth-2238a18e5ed84c5c91986a13c2469ef2' target="_blank">2024.03.02 AnsMonth_TIL의 자세히보기(notion)</a>
