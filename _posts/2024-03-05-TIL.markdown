@@ -1,0 +1,33 @@
+---
+layout: post
+title: "web-game 반응속도체크"
+date: 2024-03-05 13:16:03 +0900
+categories: jekyll update
+---
+
+<b>CHECK</b>
+
+- [x] JavaScript의 활용편 => webgame 강의 + 구현 
+<br>
+
+---
+
+<br>
+
+<b>TODO</b>
+
+- setTimeout 
+- new Date()
+- reduce 
+- classList.replace
+ 
+<b>THINK</b>
+
+- 책으로만 공부하는 JS가 아니라 실제로 게임을 구현하면서 JS를 익히게 된다. 단편적인 지식이 하나로 모아지는 느낌이다. 
+
+<br>
+
+---
+
+<br>
+- <a href='https://www.notion.so/fun-blog/webgame-10374b5651cf4929910e5e0b94403afe' target="_blank">2024.03.05 web-game TIL의 자세히보기(notion)</a>
