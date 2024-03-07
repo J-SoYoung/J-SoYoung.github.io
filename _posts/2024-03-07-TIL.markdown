@@ -1,0 +1,32 @@
+---
+layout: post
+title: "web-game TextRPG, this와 깊은/얕은복사"
+date: 2024-03-07 13:16:03 +0900
+categories: jekyll update
+---
+
+<b>CHECK</b>
+
+- [x] JavaScript의 활용편 => webgame 강의 + 구현
+      <br>
+
+---
+
+<br>
+
+<b>TODO</b>
+
+- 깊은 복사, 얕은 복사
+- class 생성
+- this
+
+<b>THINK</b>
+
+- 짧아도 직접 코드를 구현해보면서 개념을 실제로 익혀본다. 책에서 보면서 익힐 때랑은 또 다른 느낌임.
+
+<br>
+
+---
+
+<br>
+- <a href='https://www.notion.so/fun-blog/24e7d645f1734c5ea6bede2a3ee35f9c' target="_blank">2024.03.07 web-game-TextRPG TIL의 자세히보기(notion)</a>
