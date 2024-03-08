@@ -1,0 +1,53 @@
+---
+layout: post
+title: "web-game card, event-loop"
+date: 2024-03-08 13:16:03 +0900
+categories: jekyll update
+---
+
+<b>CHECK</b>
+
+- [x] JavaScript의 활용편 => webgame 강의 + 구현
+      <br>
+
+---
+
+<br>
+
+<b>TODO</b>
+
+- 비동기 프로그래밍
+- 이벤트루프
+- QUIZ
+``` jsx
+function aaa() {
+  setTimeout(() => {
+    console.log('d')
+  }, 0)
+  console.log('c')
+}
+
+setTimeout(() => { //1
+  console.log('a')
+  aaa()
+}, 0)
+
+setTimeout(() => { //2
+  aaa();
+  console.log('b')
+}, 0)
+
+```
+
+<b>THINK</b>
+
+- 자바스크립트는 싱글 스레드 ( 프로그램 실행 단위 ) 언어이기 때문에 한번에 하나의 작업만 할 수 있다. 그래서 비동기 프로그래밍 방법을 가져와 여러가지 일을 동시에 실행하는 것처럼 동작할 수 있다.
+- 자바스트립트의 콜스택은 여전히 한가지 일만 수행한다. 하지만 그 이외의 브라우저의 webAPI나 태스크큐, 이벤트 루프의 도움으로 비동기 작업을 수행할 수 있다. 
+- webAPI, 태스크큐가 비동기 작업을 데리고 있고, 이벤트루프틑 태스크 큐에 있는 비동기 작업들을 콜스택으로 전달해 주기 때문에 콜스택은 한가지 작업만 하면서 비동기 처리가 가능하다. 
+- 이론적인 것들을 코드에서 적용해보며 이해하는 부분이 꽤나 매력적이었다. 특히 퀴즈가 뒤통수를 쳤다ㅋㅋㅋㅋㅋㅋㅋㅋ 이제는 이해를 했지만, 꽤 난감했닼. 실제 코드에서 비동기를 이해하고 처리해봐야지 
+<br>
+
+---
+
+<br>
+- <a href='https://www.notion.so/fun-blog/webgame-card-a59edf1ef06e4211a4f074e49dc07fd7' target="_blank">2024.03.08 web-game-card TIL의 자세히보기(notion)</a>
