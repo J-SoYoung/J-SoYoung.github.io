@@ -1,0 +1,32 @@
+---
+layout: post
+title: "node-bird, redux 데이터 상태 관리"
+date: 2024-03-12 13:16:03 +0900
+categories: jekyll update
+---
+
+<b>CHECK</b>
+
+- zerocho lecture 'node-bird' : React & Next.js
+  <br>
+
+---
+
+<br>
+
+<b>TODO</b>
+
+- redux, next에서 redux를 사용해 상태관리를 하려면 'next-redux-wrapper' 라이브러리를 활용하는 것이 좋다
+- redux의 기본 동작원리 
+- reducer에서 state를 불변성을 유지하며 데이터 관리하는 이유 
+
+<b>THINK</b>
+
+- 이전에 했을 때는 어렵게만 느껴졌는데, 이제는 훨씬 이해가 잘 된다. 코드에서 많이 활용해봐야겠다. 
+- redux는 JS의 객체에 대한 이해도가 필요하다. 객체의 얕은 복사, 참조 등의 개념을 짚는다. 역시 근본을 알아야 많은 것을 활용할 수 있다는 걸 느낀다. 
+  <br>
+
+---
+
+<br>
+- <a href='https://www.notion.so/fun-blog/node-bird-def9d476f7704b47b87d6a8443d7acb3' target="_blank">2024.03.12 node-bird, redux TIL의 자세히보기(notion)</a>
