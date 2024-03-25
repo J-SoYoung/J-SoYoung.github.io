@@ -1,0 +1,28 @@
+---
+layout: post
+title: "node-bird / faker문제 해결, 무한스크롤 버그해결, follow구현,"
+date: 2024-03-25 13:16:03 +0900
+categories: jekyll update
+---
+
+<b>CHECK</b>
+
+- zerocho lecture 'node-bird' : React & Next.js
+  <br>
+
+---
+
+<br>
+
+<b> study, think </b>
+
+- faker의 랜덤한 데이터로 인한 hydration runtime Error해결
+- 이전 무한스크롤 기능 ++ => 스크롤 아래로 왔을 때 데이터 추가되는 내용이 위쪽으로 붙은 버그 해결
+- follow기능 구현 redux + saga
+- 포스트 가져오기 기능 redux + saga 마무리
+  <br>
+
+---
+
+<br>
+- <a href='https://www.notion.so/fun-blog/next-js-hydration-Error-bug-4355d08b9e1842e2bd782e3cba9ba195' target="_blank" rel="noreferrer noopener">2024.03.25 node-bird TIL의 자세히보기(notion)</a>

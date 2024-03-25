@@ -1,0 +1,22 @@
+---
+layout: post
+title: "node-bird / comment기능 구현"
+date: 2024-03-22 13:16:03 +0900
+categories: jekyll update
+---
+
+<b>CHECK</b>
+
+- zerocho lecture 'node-bird' : React & Next.js
+  <br>
+
+---
+
+<br>
+
+<b> study, think </b>
+
+- reducer + saga를 사용해 comment기능 구현 
+  <br>
+
+---
