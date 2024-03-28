@@ -1,0 +1,32 @@
+---
+layout: post
+title: "node-bird / login / 회원가입, server API연결"
+date: 2024-03-28 13:16:03 +0900
+categories: jekyll update
+---
+
+<b>CHECK</b>
+
+- zerocho lecture 'node-bird' : React & Next.js
+  <br>
+
+---
+
+<br>
+<b> STUDY </b>
+
+- Cross Origin Resource Sharing 웹브라우저의 CORS보안 정책 ( 헤더추가, 프록시서버, cors라이브러리 사용 등 다양한 방법)
+- 인증을 위한 passport라이브러리 사용하여 login 구현
+- redux, saga, backend server와 axios로 통신 
+  <br>
+
+<b> think </b>
+
+- 백엔드와 프론트엔드를 둘 다 보면서 하니까 굉장히 정신없다. 하지만서도 전체적인 데이터를 다루니까 시야가 넓어지는 느낌이다. 더 공부하고싶다 
+  <br>
+
+---
+
+<br>
+- <a href='https://www.notion.so/fun-blog/back-front-2add773516fc4c7cb17bbe9967ef2bff' target="_blank" rel="noreferrer noopener">2024.03.28 node-bird TIL의 자세히보기 - 로그인(notion)</a>
+- <a href='https://www.notion.so/fun-blog/back-front-1b036ba3f9294384972935e7e40a7f28' target="_blank" rel="noreferrer noopener">2024.03.28 node-bird TIL의 자세히보기 - CORS(notion)</a>

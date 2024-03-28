@@ -14,7 +14,7 @@ categories: jekyll update
 
 <br>
 
-<b> study, think </b>
+<b> SRUDY, THINK </b>
 
 - faker의 랜덤한 데이터로 인한 hydration runtime Error해결
 - 이전 무한스크롤 기능 ++ => 스크롤 아래로 왔을 때 데이터 추가되는 내용이 위쪽으로 붙은 버그 해결

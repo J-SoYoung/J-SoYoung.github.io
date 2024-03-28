@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "node-bird / node.js로 백엔드시작"
-date: 2024-03-25 13:16:03 +0900
+date: 2024-03-27 13:16:03 +0900
 categories: jekyll update
 ---
 
@@ -22,7 +22,7 @@ categories: jekyll update
 - MySQL은 table을 만들고, 그 안에 컬럼의 내용을 담는다. 각 컬럼에서 관계를 가지는 데이터드는 1:1, 1:다, 다:다의 관계를 통해 설정해 줄 수 있다.
   <br>
 
-<b> think </b>
+<b> THINK </b>
 
 - node.js를 직접 배워보는 건 처음이다. import/export가 아닌 require/module을 사용하는데 같은 JavaScript지만 굉장히 낯설게 느껴졌다. node책을 간단하게 훑어봐야겠다.
 - 이전에 next.js를 사용할 때는 mongoDB의 NoSQL데이터베이스를 사용해봤었다. next.js에 집중한다고 db에 큰 비중을 두지 않아서 SQL/NoSQL의 차이에 대해 생각해 보지 못했고, NoSQL은 데이터의 관계에 비중을 두지 않기 때문에 메서드를 사용해 CRUD만 구현해봤었다. 그래서 'DB는 간단하네'라는 생각이 있었는데 이번 강의를 들으면서 DB의 데이터 관계의 중요성?이랄까. 데이터간의 관계성에 대해 생각해 보는 기회가 됐다. 데이터의 관계도를 생각해 보는 것도 꽤 재미있었다. 실제로 내가 만들 블로그는 어떤 DB구조를 가지면 좋을지 머릿속에서 짜고 있닼ㅋㅋ.
