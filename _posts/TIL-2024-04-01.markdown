@@ -1,0 +1,31 @@
+---
+layout: post
+title: "node-bird / 백-프론트의 데이터 전달, 로그인유지"
+date: 2024-04-01 13:16:03 +0900
+categories: jekyll update
+---
+
+<b>CHECK</b>
+
+- zerocho lecture 'node-bird' : React & Next.js
+  <br>
+
+---
+
+<br>
+<b> STUDY </b>
+
+- 서버와 프론트 사이의 데이터를 유지하기 위해서는 여러 설정들이 필요하다. 도메인이 다르기 때문에 브라우저에서 보안 설정을 해 놓는 경우가 많아 CORS설정에 대한 이해가 필수다. 
+- 새로고침 시 로그인 정보가 유지되도록 하는 법.
+  <br>
+
+<b> think </b>
+
+- 에러 메세지를 잘 분석하자. 가장 정확하게 에러 난 부분을 알려준다.
+- 백엔드에서의 코드 처리, 프론트에서 요청/응답처리 등 백과 프론트를 왔다갔다 하며 강의를 듣고 있다. 오타에서도 에러가 발생할 수 있고 미숙한 처리 부분에서도 에러가 발생할 수 있다. 최대한 코드의 흐름을 이해하자. 오타에 신경쓰기! 에러 메세지를 참고하여, 에러와 코드의 흐름을 이해하고 대응하자. 
+  <br>
+
+---
+
+<br>
+- <a href='https://www.notion.so/fun-blog/MySQL-e9176c509668470aac1bc1eb836ee40f' target="_blank" rel="noreferrer noopener">2024.03.29 node-bird TIL의 자세히보기(notion)</a>
