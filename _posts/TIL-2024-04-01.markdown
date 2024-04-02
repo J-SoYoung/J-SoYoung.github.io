@@ -28,4 +28,4 @@ categories: jekyll update
 ---
 
 <br>
-- <a href='https://www.notion.so/fun-blog/MySQL-e9176c509668470aac1bc1eb836ee40f' target="_blank" rel="noreferrer noopener">2024.03.29 node-bird TIL의 자세히보기(notion)</a>
+- <a href='https://www.notion.so/fun-blog/Error-2175afb763524ab49c88cf3c59cb2089' target="_blank" rel="noreferrer noopener">2024.04.01 node-bird TIL의 자세히보기(notion)</a>
