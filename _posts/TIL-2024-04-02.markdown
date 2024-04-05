@@ -33,3 +33,5 @@ categories: jekyll update
 
 ---
 
+<br>
+- <a href='https://www.notion.so/fun-blog/807c6170b2c0463a9d26c87fe964affd' target="_blank" rel="noreferrer noopener">2024.04.02~3 node-bird TIL의 자세히보기(notion)</a>

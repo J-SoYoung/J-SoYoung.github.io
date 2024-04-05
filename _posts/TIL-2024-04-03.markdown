@@ -1,0 +1,30 @@
+---
+layout: post
+title: "node-bird / 팔로워 팔로잉@"
+date: 2024-04-03 13:16:03 +0900
+categories: jekyll update
+---
+
+<b>CHECK</b>
+
+- zerocho lecture 'node-bird' : React & Next.js
+  <br>
+
+---
+
+<br>
+<b> STUDY </b>
+
+- 팔로우 기능을 구현하였다. 용어가 굉장히 헷갈렸다. 팔로워, 팔로잉, 팔로우@_@ 나를 팔로우 한 사람들의 리스트는 팔로워, 내가 팔로우 한 사람들의 리스트는 팔로잉. 
+- sequalize의 메서드에서 add/get/remove를 통해서 각 관계에 있는 database를 연결해 가져올 수 있었다. 
+  <br>
+
+<b> THINK </b>
+
+- redux, saga, 그리고 backend의 sequalize를 사용하면서 데이터 흐름이 눈에 익었다. 다음주부터는 실제로 블로그를 구현하면서 적용해 볼 생각이다. 사용법도 익혀야 하지만 이 보다 한단계 더 깊이 있는 공부를 해야하는뎀. ㅎㅎ ?_?  
+  <br>
+
+---
+
+<br>
+- <a href='https://www.notion.so/fun-blog/807c6170b2c0463a9d26c87fe964affd' target="_blank" rel="noreferrer noopener">2024.04.02~3 node-bird TIL의 자세히보기(notion)</a>

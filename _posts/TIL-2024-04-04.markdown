@@ -1,0 +1,24 @@
+---
+layout: post
+title: "node-bird / 이미지업로드"
+date: 2024-04-04 13:16:03 +0900
+categories: jekyll update
+---
+
+<b>CHECK</b>
+
+- zerocho lecture 'node-bird' : React & Next.js
+  <br>
+
+---
+
+<br>
+<b> STUDY </b>
+
+- formData를 활용한 이미지 업로드
+  <br>
+
+---
+
+<br>
+- <a href='https://www.notion.so/fun-blog/90e9908c24a74a59acf39a6a9534131f' target="_blank" rel="noreferrer noopener">2024.04.04 node-bird TIL의 자세히보기(notion)</a>
