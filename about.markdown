@@ -10,3 +10,5 @@ permalink: /about/
 - 👀 I'm interested in front-end development
 - 🌱 I'm currently learning JavaScript, React, and Next.js
 - 💞️ I'm looking to collaborate on studying these technologies together
+
+왜 안되는거지???
