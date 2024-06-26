@@ -1,0 +1,24 @@
+---
+layout: post
+title: "geekchic프로젝트 페이지 라우터설정"
+date: 2024-06-26 13:16:03 +0900
+categories: jekyll update
+---
+
+<b> STUDY </b>
+- geekchic 프로젝트 페이지를 라우터를 설정하였다.
+
+- (1) 중고 페이지의 공통인 부분을 Layout 컴포넌트로 만들어 각 페이지에서 사용하도록 하였다.
+  - 페이지마다 다른 부분은 컴포넌트 속성으로 받아 설정할 수 있도록 하였다.
+
+- (2) 중고 메인페이지 / 마이페이지 연결되는 페이지 생성 및 라우터 설정하였다.
+  - mypage에 연결된 주문내역, 장바구니, 판매목록, 프로필관리 4개의 페이지가 생성하였다.
+  - 주문내역과 장바구니는 UI가 비슷함으로 하나의 페이지(MyList)에서 url의 param에 따라 컴포넌트를 다르게 보여주기로 하였다.
+  <br>
+  
+![alt text](0626.png)
+---
+
+<br>
+- <a href='https://github.com/GeekChicShop/GeekChic/commit/0e9156e8e3200a5db3339a2f743eb7c400bb9b53' target="_blank" rel="noreferrer noopener">(1)Layout github</a>
+- <a href='https://github.com/GeekChicShop/GeekChic/commit/040c7f6e626457cfc7d472d715f796bde0ab47d8#diff-2be79e4810094be527e07fe0beb95e7dd7453ff1a8dd31f410758ca86a13e13f' target="_blank" rel="noreferrer noopener">(2)mypage github</a>
