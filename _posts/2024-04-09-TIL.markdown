@@ -1,0 +1,26 @@
+---
+layout: post
+title: "generator, blog db설계"
+date: 2024-04-09 13:16:03 +0900
+categories: jekyll update
+---
+
+<b>CHECK</b>
+
+- redux-saga와 generator의 관계
+- Young Story, blog구현 
+  <br>
+
+---
+
+<br>
+<b> STUDY </b>
+
+- saga는 generator를 기반으로 만들어진 redux미들웨어다. 자바스크립트의 함수는 실행을 도중에 멈출 수 없지만, generator는 yield로 함수의 흐름을 제어할 수 있다. 
+- 
+  <br>
+
+---
+
+<br>
+- <a href='https://www.notion.so/fun-blog/hashtag-retweet-lastId-179d7bbf6d284517ba471e8ad41c510e' target="_blank" rel="noreferrer noopener">2024.04.05 node-bird TIL의 자세히보기(notion)</a>
