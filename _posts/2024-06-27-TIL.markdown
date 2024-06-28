@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Layout페이지 설정"
+date: 2024-06-26 13:16:03 +0900
+categories: jekyll update
+---
+
+<b> STUDY </b>
+
+- Geekchic 프로젝트 레이아웃 및 스타일 설정<br>
+  mypage의 공통 부분은 layout으로 수정
+- vite 블로그정리
+- 깃헙 컨벤션 및 issue등록
+  <br>
+
+---
+
+<br>
+- <a href='https://www.notion.so/fun-blog/d644b1787e0041e29f8e941a67f5306e' target="_blank" rel="noreferrer noopener">프로젝트 세팅</a>
+- <a href='https://www.notion.so/fun-blog/React-vite-TypeScript-11178bf707dc43239c4168504ab979db' target="_blank" rel="noreferrer noopener">Vite란 무엇인가</a>
