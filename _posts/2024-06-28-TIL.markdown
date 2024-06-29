@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Layout페이지 설정"
-date: 2024-06-26 13:16:03 +0900
+date: 2024-06-28 13:16:03 +0900
 categories: jekyll update
 ---
 

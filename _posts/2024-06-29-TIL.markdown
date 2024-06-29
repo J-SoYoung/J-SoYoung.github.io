@@ -1,0 +1,18 @@
+---
+layout: post
+title: "geekchic마컵"
+date: 2024-06-29 13:16:03 +0900
+categories: jekyll update
+---
+
+<b> STUDY </b>
+
+- Geekchic 프로젝트 레이아웃 및 스타일 설정 
+- [마이페이지>프로필 관리페이지](https://github.com/GeekChicShop/GeekChic/commit/457598f40ebdcfebcb32a871f9c635c9b93fbf35) / 중고 상세페이지 
+- [라우터 설정 (절대/상대주소) 중고페이지에서의 상세](https://github.com/GeekChicShop/GeekChic/commit/db563558af4612d5fa734d3fa4e5dbc09875913e) -> 상대주로소 usedHome 뒤에 이어서 url생성하기로 함
+- 마이페이지와 연결된 페이지 4개( 프로필관리, 주문내역, 판매목록, 장바구니)는 상대주소로 my에 이어서 url생성하도록 함.   <br>
+
+---
+
+<br>
+- <a href='https://www.notion.so/fun-blog/tailwind-84e1bd810fbc4737b50641cbb28f8ba8' target="_blank" rel="noreferrer noopener">tailwind post</a>
