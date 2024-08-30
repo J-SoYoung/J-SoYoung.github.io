@@ -10,10 +10,10 @@ categories: jekyll update
 - Geekchic 프로젝트 My페이지 마크업 및 공통 컴포넌트 생성
 - [공통 컴포넌트 생성 GIthub](https://github.com/GeekChicShop/GeekChic/pull/17)
 - setState함수에 콜백함수를 넣어 상태 관리가 가능 ( map, filter )
+- 중고 상품 데이터 타입 지정, 각 페이지에서 사용하던 더미데이터 하나로 연결하기
 
  <br>
 
 ---
 
 <br>
-
