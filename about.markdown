@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img src='/images/240830Me.jpg' width='250px'>
+<img src='/images/' width='250px'>
 
 - 👋 Hi, I'm @SoYoung-Jung.
 - 👀 I'm interested in front-end development
