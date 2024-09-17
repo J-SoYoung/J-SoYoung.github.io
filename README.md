@@ -6,3 +6,4 @@
 - [:memo: 나의 첫 리팩토링 도전기 - 폴더 구조부터 정리하자!](https://github.com/J-SoYoung/J-SoYoung.github.io/blob/main/_posts/2024-09-07-TIL.markdown)
 - [:memo: 코드는 자란다: v2로 업로드 페이지 진화기](https://github.com/J-SoYoung/J-SoYoung.github.io/blob/main/_posts/2024-09-11-TIL.markdown)
 - [:memo: 댓글을 제품에서 탈출시키다: Geekchic v2의 댓글 독립 선언!](https://github.com/J-SoYoung/J-SoYoung.github.io/blob/main/_posts/2024-09-16-TIL.markdown)
+- [:memo: 쪽지 보내기 기능하나에 이렇게 많은 고민이?? Firebase와 React로 쪽지 기능 완성하기](https://github.com/J-SoYoung/J-SoYoung.github.io/blob/main/_posts/2024-09-17-TIL.markdown)
